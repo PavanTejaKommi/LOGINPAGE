@@ -1,0 +1,135 @@
+.nav-bar-component{
+    list-style-type: none;
+    float:right;
+}
+.nav-bar{
+    display:inline-block;
+    /*background-color: #69a832;*/  
+    width: 100%;
+    height:fit-content; 
+    
+}
+.navbar-section{
+    background-image: url(LoginImage.jpg);
+    min-height: 902px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-elemets{
+    display:inline-block;
+    padding: 20px 25px 10px 25px; 
+}
+.glyphicon-user{
+    color:white;
+}
+a{
+    text-decoration: none;
+    font-style:normal;
+    color:whitesmoke !important;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.navbar-elemets:hover{
+    background-color:#32a87b;
+    cursor: pointer;
+}
+.div_username{
+    display:inline-block;
+}
+.div_password{
+    display: inline-block;
+}
+.username{
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border-style: none;
+    border-bottom-style: groove;
+    width:280px;
+    height:25px;
+    border-color: cornflowerblue;
+    margin-left: 15px;
+}
+.passwd{
+    border-radius: 5px;
+    margin-bottom: 50px;
+    border-style: none;
+    border-bottom-style: groove;
+    width:280px;
+    height:25px;
+    border-color: cornflowerblue;
+    margin-left: 15px;
+}
+.loginbtn{
+    display:block;
+}
+.loginform{
+    border:2px black solid;
+    max-width:450px;
+    height:400px;
+    padding: 40px;
+    position: relative;
+    left:600px;
+    top:280px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.btn_login{
+    position: relative;
+    padding-left: 110px;
+}
+.loginbtn{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.socialmedia{
+    margin-top: 50px;
+    left:85px;
+    position: relative;
+}
+.bi-person-circle{
+    font-size: 32px;
+}
+.bi-key-fill{
+    font-size: 32px;
+}
+.fa-facebook{
+    background-color: #3B5998;
+    color: white;
+    height: fit-content;
+    border-radius: 50%;
+    font-size: 30px !important;
+    
+}
+.fa-twitter{
+    background-color: #03cffc;
+    color: white;
+    height: fit-content;
+    border-radius: 50%;
+    font-size: 30px !important;
+}
+.fa-google{
+    background-color: #fc0303;
+    color: white;
+    height: fit-content;
+    border-radius: 50%;
+    font-size: 30px !important;
+}
+@keyframes example{
+    from{background-color: white;}
+    to{background-color: bisque;}
+}
+
+
+
+
